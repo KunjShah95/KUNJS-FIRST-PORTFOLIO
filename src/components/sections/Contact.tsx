@@ -6,10 +6,10 @@ import { Button } from '@/components/ui/button';
 import { Github, Linkedin, Mail, Twitter, Send } from 'lucide-react';
 
 const socialLinks = [
-  { icon: Github, href: '#', label: 'GitHub', color: 'hover:text-[#333]' },
-  { icon: Linkedin, href: '#', label: 'LinkedIn', color: 'hover:text-[#0077b5]' },
-  { icon: Twitter, href: '#', label: 'Twitter', color: 'hover:text-[#1da1f2]' },
-  { icon: Mail, href: 'mailto:your.email@example.com', label: 'Email', color: 'hover:text-primary' },
+  { icon: Github, href: 'https://github.com/KunjShah95', label: 'GitHub', color: 'hover:text-[#333]' },
+  { icon: Linkedin, href: 'www.linkedin.com/in/kunjshah05', label: 'LinkedIn', color: 'hover:text-[#0077b5]' },
+  { icon: Twitter, href: 'https://twitter.com/INDIA_KUNJ', label: 'Twitter', color: 'hover:text-[#1da1f2]' },
+  { icon: Mail, href: 'kunjkshah05@gmail.com', label: 'Email', color: 'hover:text-primary' },
 ];
 
 export function Contact() {
